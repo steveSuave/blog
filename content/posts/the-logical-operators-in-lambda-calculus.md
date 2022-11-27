@@ -66,7 +66,7 @@ $$(\lambda x.((x \hspace{6mu} False) \hspace{6mu} True) \hspace{6mu} True) \to$$
 $$((True \hspace{6mu} False) \hspace{6mu} True)\to$$
 $$ False $$
 
-From here on I will be less explanatory and briefly define the *And*, *Or*, *Implies* and *Equivalent* operators in abbreviated boolean lambda terms. I will leave the expansion as a pastime suggestion to the reader. One could also consider defining *Xor*, *Nand* etc.
+From here on I will stop being explanatory and I will briefly define the *And*, *Or*, *Implies* and *Equivalent* operators in abbreviated boolean lambda terms. I will leave the expansion as a pastime suggestion to the reader. One could also consider defining *Xor*, *Nand* etc.
 
 $$ And = \lambda a. \lambda b.(a \hspace{6mu} b \hspace{6mu} False) $$
 $$ Or = \lambda a. \lambda b.(a \hspace{6mu} True \hspace{6mu} b) $$
